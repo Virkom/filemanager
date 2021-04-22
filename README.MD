@@ -24,6 +24,9 @@ To run container:
 
 where `{local_directory_path}` - path to uploads directory in local filesystem which be mounted to the docker container
 
+## Access to endpoints
+
+After service starting you can find it by the link [http://localhost:8080](http://localhost:8080)
 
 ## Available endpoints
 
