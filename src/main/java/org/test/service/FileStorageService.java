@@ -8,6 +8,8 @@ import org.test.model.FileInfo;
 
 /**
  * Service to manage storage operations
+ * For one instance of application it's possible, but if it will be highloaded system with many instances
+ * need to add separate implementation using Amazon S3 or separate microservice
  */
 public interface FileStorageService {
     /**

@@ -6,6 +6,8 @@ import org.test.model.FileInfo;
 
 /**
  * Storage to save file info
+ * For one instance of application it's possible, but if it will be highloaded system with many instances
+ * need to add separate implementation using AWS, database, Redis, separate microservice, etc.
  */
 public interface FileInfoStorage {
     /**
