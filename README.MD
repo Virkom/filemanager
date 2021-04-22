@@ -30,6 +30,7 @@ where `{local_directory_path}` - path to uploads directory in local filesystem w
 1. POST /files/
 
 Add attachment to the form-data params with name `file`
+
 Response example:
 
 /* example response */
